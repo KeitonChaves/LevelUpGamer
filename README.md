@@ -1,7 +1,7 @@
 # LevelUpGamer 🎮
 ### Plataforma de Gestión para Gamers basada en Microservicios
 
-**LevelUpGamer** es una aplicación full-stack diseñada bajo una arquitectura de microservicios, enfocada en [aquí puedes poner el objetivo: ej. gestión de torneos, inventario de juegos o comunidad]. Este proyecto demuestra la integración de múltiples servicios independientes comunicándose entre sí para ofrecer una experiencia escalable.
+**LevelUpGamer** es una aplicación full-stack diseñada bajo una arquitectura de microservicios, enfocada en un Ecommerce con temática Gamer. Este proyecto demuestra la integración de múltiples servicios independientes comunicándose entre sí para ofrecer una experiencia escalable.
 
 ---
 
@@ -54,7 +54,7 @@ cd frontend
 npm install
 npm start
 ```
-### Desarrollado por: Keiton Chaves y Matias Cháves - Analista Programador | Estudiante de Ingeniería en Informática.
+### Desarrollado por: Keiton Chaves y Matias Chávez - Analista Programador | Estudiantes de Ingeniería en Informática.
 ---
 ### Diagrama de Arquitectura
 ```mermaid
