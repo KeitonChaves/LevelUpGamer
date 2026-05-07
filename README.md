@@ -9,32 +9,34 @@
 
 El sistema se divide en 5 componentes principales:
 
-1.  **Frontend (React):** Interfaz de usuario moderna y responsiva.
-2.  **Microservicio 1:** [Nombre/Función, ej. Gestión de Usuarios y Auth]
-3.  **Microservicio 2:** [Nombre/Función, ej. Catálogo de Juegos]
-4.  **Microservicio 3:** [Nombre/Función, ej. Sistema de Logros]
-5.  **Microservicio 4:** [Nombre/Función, ej. Pasarela de Pagos/Notificaciones]
+1. **Frontend (React):** Interfaz de usuario moderna y responsiva.
+2. **Microservicio 1:** [Nombre/Función, ej. Gestión de Usuarios y Auth]
+3. **Microservicio 2:** [Nombre/Función, ej. Catálogo de Juegos]
+4. **Microservicio 3:** [Nombre/Función, ej. Sistema de Logros]
+5. **Microservicio 4:** [Nombre/Función, ej. Pasarela de Pagos/Notificaciones]
 
 ## 🛠️ Tecnologías Utilizadas
 
-*   **Frontend:** React.js, [Tailwind/Bootstrap], Axios.
-*   **Backend:** Java 17+, Spring Boot (Spring Security, Spring Data JPA).
-*   **Base de Datos:** MySQL / PostgreSQL (vía Docker).
-*   **Herramientas:** Git, GitHub, Postman para pruebas de API.
+* **Frontend:** React.js, [Tailwind/Bootstrap], Axios.
+* **Backend:** Java 17+, Spring Boot (Spring Security, Spring Data JPA).
+* **Base de Datos:** MySQL / PostgreSQL (vía Docker).
+* **Herramientas:** Git, GitHub, Postman para pruebas de API.
 
 ## 🚀 Instalación y Uso
 
 Para replicar este proyecto localmente, sigue estos pasos:
 
 ### Pre-requisitos
-*   Java JDK 17 o superior.
-*   Node.js y npm.
-*   Docker (opcional, para las bases de datos).
+* Java JDK 17 o superior.
+* Node.js y npm.
+* Docker (opcional, para las bases de datos).
 
 ### Pasos
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/KeitonChaves/LevelUpGamer.git](https://github.com/KeitonChaves/LevelUpGamer.git)
+   git clone [https://github.com/KeitonChaves/LevelUpGamer.git]
+   ```
+   (https://github.com/KeitonChaves/LevelUpGamer.git)
 
 2. **Configurar Microservicios:**
 Entra en cada carpeta de microservicio y configura el archivo **application.properties** con tus credenciales de base de datos.
@@ -44,7 +46,7 @@ En cada carpeta de microservicio, ejecuta:
 
 ```bash
 ./mvnw spring-boot:run
-
+```
 
 4. **Ejecutar el Frontend:**
 
@@ -52,8 +54,8 @@ En cada carpeta de microservicio, ejecuta:
 cd frontend
 npm install
 npm start
-
-Desarrollado por Keiton Chaves - Estudiante de Ingeniería en Informática.
+```
+## Desarrollado por Keiton Chaves - Estudiante de Ingeniería en Informática.
 
 ```mermaid
 graph TD
@@ -83,3 +85,4 @@ graph TD
     style MS2 fill:#6db33f,stroke:#fff,color:#fff
     style MS3 fill:#6db33f,stroke:#fff,color:#fff
     style MS4 fill:#6db33f,stroke:#fff,color:#fff
+```
