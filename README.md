@@ -34,9 +34,8 @@ Para replicar este proyecto localmente, sigue estos pasos:
 ### Pasos
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/KeitonChaves/LevelUpGamer.git]
+   git clone https://github.com/KeitonChaves/LevelUpGamer.git
    ```
-   (https://github.com/KeitonChaves/LevelUpGamer.git)
 
 2. **Configurar Microservicios:**
 Entra en cada carpeta de microservicio y configura el archivo **application.properties** con tus credenciales de base de datos.
@@ -55,8 +54,9 @@ cd frontend
 npm install
 npm start
 ```
-## Desarrollado por Keiton Chaves - Estudiante de Ingeniería en Informática.
-
+### Desarrollado por: Keiton Chaves - Analista Programador | Estudiante de Ingeniería en Informática.
+---
+### Diagrama de Arquitectura
 ```mermaid
 graph TD
     User((Usuario/Gamer)) -->|Interactúa| FE[Frontend - React.js]
