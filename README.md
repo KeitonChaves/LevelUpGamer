@@ -37,17 +37,18 @@ Para replicar este proyecto localmente, sigue estos pasos:
    git clone [https://github.com/KeitonChaves/LevelUpGamer.git](https://github.com/KeitonChaves/LevelUpGamer.git)
 
 2. **Configurar Microservicios:**
-Entra en cada carpeta de microservicio y configura el archivo application.properties con tus credenciales de base de datos.
+Entra en cada carpeta de microservicio y configura el archivo **application.properties** con tus credenciales de base de datos.
 
-3. Ejecutar el Backend:
+3. **Ejecutar el Backend:**
 En cada carpeta de microservicio, ejecuta:
 
-Bash
+```bash
 ./mvnw spring-boot:run
 
-4.Ejecutar el Frontend:
 
-Bash
+4. **Ejecutar el Frontend:**
+
+```Bash
 cd frontend
 npm install
 npm start
