@@ -54,7 +54,7 @@ cd frontend
 npm install
 npm start
 ```
-### Desarrollado por: Keiton Chaves - Analista Programador | Estudiante de Ingeniería en Informática.
+### Desarrollado por: Keiton Chaves y Matias Cháves - Analista Programador | Estudiante de Ingeniería en Informática.
 ---
 ### Diagrama de Arquitectura
 ```mermaid
